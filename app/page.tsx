@@ -3,8 +3,8 @@ import styles from './page.module.css'
 
 export default function Home() {
   return (
-    <div>
-      Welcome !!!
-    </div>
+    <h1>
+      Welcome to my test App !!!
+    </h1>
   )
 }
