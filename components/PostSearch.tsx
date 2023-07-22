@@ -1,7 +1,7 @@
 'use client'
 
 import { getPostsBySearch } from "@/services/getPosts";
-import { FormEventHandler, useState } from "react"
+import { FormEventHandler, useState } from "react";
 
 type Props = {
     onSearch: (value: any[]) => void;
