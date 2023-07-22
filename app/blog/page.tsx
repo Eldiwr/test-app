@@ -1,11 +1,10 @@
-'use client';
+'use client'
 
 import { getAllPosts } from "@/services/getPosts";
 import { Metadata } from "next";
 import { useEffect, useState } from "react";
 import Posts from "@/components/Posts";
 import PostSearch from "@/components/PostSearch";
-
 
 
 export const metadata: Metadata = {
@@ -20,9 +19,9 @@ export default  function Blog() {
         getAllPosts()
         .then(setPosts)
         .finally(() => setLoading(false))
-    },[])
+    },[]);
     
-    return(
+    return (
         <>
             <h1>Blog page</h1>
             <PostSearch onSearch={setPosts} />
