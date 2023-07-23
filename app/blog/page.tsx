@@ -28,4 +28,4 @@ export default  function Blog() {
             {loading ? <h3>Loading ...</h3> : <Posts posts={posts} />}  
         </>
     )
-};
+}
