@@ -1,7 +1,7 @@
 'use client';
 
 import { getAllPosts } from "@/services/getPosts";
-import { Metadata } from "next";
+// import { Metadata } from "next";
 import { useEffect, useState } from "react";
 import Posts from "@/components/Posts";
 import PostSearch from "@/components/PostSearch";
